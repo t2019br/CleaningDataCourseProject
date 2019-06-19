@@ -1,7 +1,7 @@
 # CleaningDataCourseProject
 Getting and Cleaning Data Course - Final Course Project
 
-To start the analysis, you should download the script to any directory, source the script and call the funcion go.
+To start the analysis, you should download the run_analysis.R script to any directory, create a data directory, with the RAW data given by the course (you can download my data directory,in this repository, with the RAW data), source the script and call the funcion go.
 To run the script you should do, the following Steps:
 
 1 - ### go to your R console <br>
