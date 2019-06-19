@@ -4,9 +4,9 @@ Getting and Cleaning Data Course - Final Course Project
 To start the analysis, you should download the script to any directory, source the script and call the funcion go.
 To run the script you should do, the following Steps:
 
-1 - go to your R console <br>
-2 - source("your_chosen_directory/run_analysis.R") <br>
-3 - go() # Call the starting function to run the analysis <br>
+1 - ### go to your R console <br>
+2 - source("your_chosen_directory/run_analysis.R") ### Source your script<br>
+3 - go() ### Call the starting function<br>
 <br><br>
 The script will make all transformations asked in the course project, and creates a TXT file with the write.table() using row.name=FALSE, called <b>project_output.txt</b>, that I'd uploaded on my project submission.<br>
 
