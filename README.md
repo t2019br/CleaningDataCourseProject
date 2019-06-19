@@ -2,7 +2,7 @@
 Getting and Cleaning Data Course - Final Course Project
 
 To start the analysis, you should download the script to any directory, source the script and call the funcion go.
-To source the script you should do, the following Steps:
+To run the script you should do, the following Steps:
 
 1 - go to your R console <br>
 2 - source("your_chosen_directory/run_analysis.R") <br>
