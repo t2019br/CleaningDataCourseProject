@@ -1,14 +1,14 @@
 # CleaningDataCourseProject
 Getting and Cleaning Data Course - Final Course Project
 
-To start the analysis, you should download the run_analysis.R script to any directory, create a data directory, with the RAW data given by the course (you can download my data directory,in this repository, with the RAW data), source the script and call the funcion go.
-To run the script you should do, the following Steps:
+To start the analysis, you should download the run_analysis.R script to any directory, download the course ZIP file with data directory, unpack it with the same directory name "UCI HAR Dataset" (the data directory should be like this: "your_chosen_directory/UCI HAR Dataset", source the script and call the funcion go.<br>
+To run the script you should do, the following Steps:<br>
 
 1 - ### go to your R console <br>
 2 - source("your_chosen_directory/run_analysis.R") ### Source your script<br>
 3 - go() ### Call the starting function<br>
 <br><br>
-The script will make all transformations asked in the course project, and creates a TXT file with the write.table() using row.name=FALSE, called <b>project_output.txt</b>, that I'd uploaded on my project submission.<br>
+The script will make all transformations asked in the course project, and creates a TXT file with the write.table() using row.name=FALSE, called <b>project_output.txt</b>, that I'd uploaded on my project submission.<br><br>
 
 1 - Merges the training and the test sets to create one data set.<br>
 2 - Extracts only the measurements on the mean and standard deviation for each measurement.<br>
