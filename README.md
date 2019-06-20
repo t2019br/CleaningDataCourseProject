@@ -1,7 +1,9 @@
 # CleaningDataCourseProject
 Getting and Cleaning Data Course - Final Course Project
 
-To start the analysis, you should download the run_analysis.R script to any directory, download the course ZIP file with data directory, unpack it with the same directory name "UCI HAR Dataset" (the data directory should be like this: "your_chosen_directory/UCI HAR Dataset", source the script and call the funcion go.<br>
+To start the analysis, you should download the run_analysis.R script to any directory, and run the go() funciton of the script<br>
+The script has 2 funcitons download() and go(). the download function, creates a working directory on drive c, downloads de zip file,<br> unzip it. The go funciont start processing the files, and generates the tidy dataset on a output directory.<br>
+
 To run the script you should do, the following Steps:<br>
 
 1 - ### go to your R console <br>
