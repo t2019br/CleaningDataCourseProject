@@ -4,12 +4,9 @@ Getting and Cleaning Data Course - Final Course Project.
 In this repository is my submission of the files for the final course project.<br><br>
 It has 3 files, described as follow:<br><br>
 
-<b>README.md</b> - This file containg the explanation of the objective and files in this repository.<br><br>
-
+<b>README.md</b> - This file containg the explanation of the objective and files in this repository.<br>
 <b>CodeBook.md</b> - This is a code book that describes the variables, files used, summaries and the process of the transformation explained.
-
 <b>tidyData.txt</b> - This is output dataset submited to the course.<br>
-
 <b>run_analysis.R</b> - This is a analysis script with all code. All the code is commented. It answer all the following questions of the exercise?<br>
 1 - Merges the training and the test sets to create one data set.<br>
 2 - Extracts only the measurements on the mean and standard deviation for each measurement.<br>
