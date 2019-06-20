@@ -1,17 +1,16 @@
 # CleaningDataCourseProject
-Getting and Cleaning Data Course - Final Course Project
+Getting and Cleaning Data Course - Final Course Project.
 
-To start the analysis, you should download the run_analysis.R script to any directory, and run the go() funciton of the script.<br>
-The script has 2 funcitons: download() and go(). The download function creates a working directory on drive c, downloads de zip file and unzip it. The go funciont start processing the files, and generates the tidy dataset on a output directory.<br>
+In this repository is my submission of the files for the final course project.<br><br>
+It has 3 files, described as follow:<br><br>
 
-To run the script you should do the following Steps:<br>
+<b>README.md</br> - This file containg the explanation of the objective and files in this repository.<br><br>
 
-1 - Open your R console <br>
-2 - Source("your_chosen_directory/run_analysis.R"), to source the script<br>
-3 - go(), to Call the starting function<br>
-<br><br>
-The script will make all transformations asked in the course project, and creates a TXT file with the write.table() using row.name=FALSE, called <b>tidy_dataset.txt</b>, that I'd uploaded on my project submission.<br><br>
+<b>CodeBook.md</br> - This is a code book that describes the variables, files used, summaries and the process of the transformation explained.
 
+<b>tidyData.txt</br> - This is output dataset submited to the course.<br>
+
+<b>run_analysis.R</br> - This is a analysis script with all code. All the code is commented. It answer all the following questions of the exercise?<br>
 1 - Merges the training and the test sets to create one data set.<br>
 2 - Extracts only the measurements on the mean and standard deviation for each measurement.<br>
 3 - Uses descriptive activity names to name the activities in the data set<br>
