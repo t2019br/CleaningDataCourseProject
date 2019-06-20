@@ -22,6 +22,7 @@ download <- function()
                 setwd(DataDirectory)
         } else {
                 dir.create(file.path(DataDirectory))
+                dir.create(file.path(paste0(DataDirectory,"/Output")))
                 setwd(DataDirectory)
         } 
         
@@ -141,7 +142,7 @@ names(q2dataset) <-gsub("mean","Mean",names(q2dataset))
         if (nrow(tidy_dataset)==180)
         {
                 #generate txt file with the tidy dataset to upload to coursera
-                write.table(tidy_dataset,"./tidy_dataset.txt", row.name=FALSE)
+                write.table(tidy_dataset,"D:/CleaningDataProject/Output/tidy_dataset.txt", row.name=FALSE)
         }
         rm(tidy_dataset)   
 }
