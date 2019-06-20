@@ -10,7 +10,7 @@ To run the script you should do, the following Steps:<br>
 2 - source("your_chosen_directory/run_analysis.R") ### Source your script<br>
 3 - go() ### Call the starting function<br>
 <br><br>
-The script will make all transformations asked in the course project, and creates a TXT file with the write.table() using row.name=FALSE, called <b>project_output.txt</b>, that I'd uploaded on my project submission.<br><br>
+The script will make all transformations asked in the course project, and creates a TXT file with the write.table() using row.name=FALSE, called <b>tidy_dataset.txt</b>, that I'd uploaded on my project submission.<br><br>
 
 1 - Merges the training and the test sets to create one data set.<br>
 2 - Extracts only the measurements on the mean and standard deviation for each measurement.<br>
