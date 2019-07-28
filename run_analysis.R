@@ -67,7 +67,7 @@ go <- function()
                         #bind previous dataset the column to identify the subject that participated
                         train_ds<-cbind(subject_train,train_ds)
                 }
-                rm(X_train,Y_train,subject_train)
+                #rm(X_train,Y_train,subject_train)
 
         #MAKE TEST DATASET WITH ALLSUBJECT AND DATA COLLECTED
                 #Load Subjects that participate on Train
@@ -87,7 +87,7 @@ go <- function()
                         #bind previous dataset the column to identify the subject that participated
                         test_ds<-cbind(subject_test,test_ds)
                 }
-                rm(X_test,Y_test,subject_test,features)
+                #rm(X_test,Y_test,subject_test,features)
 
         
         #merge Train and Test data in one dataset - answer for question 1
@@ -108,7 +108,7 @@ go <- function()
         q2dataset<-merge(q2dataset,activities_labels,by.x="ActivityId",by.y="ActivityId")
         
 #Question 4 - Appropriately labels the data set with descriptive variable names.
-#Acording to features_info.txt we have some abreviations that can be changed:
+#Acording to features_info.txt we have some abreviations that can be changed
 # acc - Accelerometer, gyro - Gyroscope, prefix t - Time, prefix f - Frequency, mag - Magnitude
 #I took the ".", "-" and "()" out of the name of the columns names, 
 # and captalize first letters of the functions mean and std.
